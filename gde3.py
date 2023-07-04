@@ -26,10 +26,10 @@ problem = MyProblem()
 inicio = time.time()
 
 # Criando uma instância do algoritmo GDE3
-algorithm = GDE3(problem, population_size=2, offspring_size= 1)
+algorithm = GDE3(problem, population_size=100, offspring_size= 100)
 
 # Executando o algoritmo de otimização
-algorithm.run(1)
+algorithm.run(500)
 
 # Obtendo a solução final
 solutions = algorithm.result
