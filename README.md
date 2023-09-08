@@ -10,5 +10,5 @@ Estimate the performance of simple two-bends airfoils:
 To run GDE3, just run at the prompt: python gde3.py.
 
 Comments: 
-If this is the first time using it on Linux, you should run the following command: 'chmod +x run.sh'.
-The folders you use should not contain any special characters.
+-If this is the first time using it on Linux, you should run the following command: 'chmod +x run.sh'.
+-The folders you use should not contain any special characters.
