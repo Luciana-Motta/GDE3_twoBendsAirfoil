@@ -6,12 +6,12 @@ import csv
 def coeficientes_aerodinamicos(leBendLocation,  leBendHeight, teBendLocation, teBendHeight):
 
 	# Define os valores das variáveis
-	teBendLocation = teBendLocation + 0.5
 	thickness = 0.008
 	AirfoilLc = 0.01
 
 	# Extrair os valores do eixo x e y
-	angulos = [0,5,10,15]
+	#angulos = [0,2.5,5,7.5,10,12.5]
+	angulos = [5]
 
 
 	cl_medio, cd_medio= 0, 0
@@ -55,7 +55,7 @@ def coeficientes_aerodinamicos(leBendLocation,  leBendHeight, teBendLocation, te
 	    
 
 		# Salva os valores em um arquivo CSV
-		with open('resultados/resultados.csv', 'r+') as arquivo_csv:
+		with open('results/results.csv', 'r+') as arquivo_csv:
 			# Ler as linhas existentes do arquivo
 			linhas = arquivo_csv.readlines()
 
