@@ -23,8 +23,8 @@ FoamFile
     {
         type            empty;
         physicalType    empty;
-        nFaces          21642;
-        startFace       16091;
+        nFaces          54180;
+        startFace       40345;
     }
 
     outlet
@@ -32,7 +32,7 @@ FoamFile
         type            patch;
         physicalType    patch;
         nFaces          20;
-        startFace       37733;
+        startFace       94525;
     }
 
     walls
@@ -40,7 +40,7 @@ FoamFile
         type            wall;
         physicalType    wall;
         nFaces          80;
-        startFace       37753;
+        startFace       94545;
     }
 
     inlet
@@ -48,15 +48,15 @@ FoamFile
         type            patch;
         physicalType    patch;
         nFaces          20;
-        startFace       37833;
+        startFace       94625;
     }
 
     airfoil
     {
         type            wall;
         physicalType    wall;
-        nFaces          161;
-        startFace       37853;
+        nFaces          460;
+        startFace       94645;
     }
 
 )
