@@ -113,9 +113,9 @@ def savesGraphics(file_name, results):
 # Define as variaveis 
 vetor = [3,4]
 for i in vetor:
-    n_iterations = 1*i
-    pop_size = 10
-    off_size = 1
+    n_iterations = 100*i
+    pop_size = 100
+    off_size = 100
 
     #Salva população final
     final_pop = functionGDE3(n_iterations, pop_size, off_size) 
