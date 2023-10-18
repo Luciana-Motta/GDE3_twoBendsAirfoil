@@ -10,8 +10,7 @@ def coeficientes_aerodinamicos(leBendLocation,  leBendHeight, teBendLocation, te
 	AirfoilLc = 0.01
 
 	# Extrair os valores do eixo x e y
-	#angulos = [0,2.5,5,7.5,10,12.5]
-	angulos = [5]
+	angulos = [0,3,6,9,12]
 
 
 	cl_medio, cd_medio= 0, 0
